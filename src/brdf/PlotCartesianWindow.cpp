@@ -47,6 +47,7 @@ infringement.
 #include <QCheckBox>
 #include <QPushButton>
 #include <QComboBox>
+#include <QHBoxLayout>
 #include <QLabel>
 #include "PlotCartesianWindow.h"
 #include "PlotCartesianWidget.h"

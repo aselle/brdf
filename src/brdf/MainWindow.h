@@ -44,7 +44,7 @@ infringement.
 */
 
 #ifndef MAIMWINDOW_H
-#define MAINWINDOW_H
+#define MAIMWINDOW_H
 
 #include <QMainWindow>
 

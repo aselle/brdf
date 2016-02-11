@@ -58,7 +58,9 @@ QT   += opengl
 DEFINES += PTEX_STATIC NOMINMAX
 
 macx {
-	INCLUDEPATH += /usr/X11/include
+    INCLUDEPATH += /usr/X11/include
+    INCLUDEPATH += /usr/local/include
+	LIBS += -L/usr/local/lib
 }
 
 brdfs.path = $$DEST/share/brdf/brdfs
@@ -83,8 +85,14 @@ INSTALLS = target brdfs data images probes shaderTemplates pkgconfig
 
 
 !linux-mingw32-custom{
-    LIBS += -lz -lGLEW -lGLU -lglut
+    macx {
+        LIBS += -lz -lGLEW
+    } else {
+        LIBS += -lz -lGLEW -lGLU -lglut
+
+    }
 }
+
 
 # Windows cross compile at disney
 linux-mingw32-custom{

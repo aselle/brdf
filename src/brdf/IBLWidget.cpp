@@ -44,8 +44,11 @@ infringement.
 */
 
 #include <GL/glew.h>
-#include <QtGui>
+//#include <QtGui>
 #include <QString>
+#include <QMouseEvent>
+#include <QTimer>
+#include <QPushButton>
 #include <math.h>
 #include <stdlib.h>
 #include "./ptex/Ptexture.h"

@@ -44,6 +44,9 @@ infringement.
 */
 
 #include <QtGui>
+#include <QWidget>
+#include <QMessageBox>
+#include <QMenuBar>
 #include "MainWindow.h"
 #include "ParameterWindow.h"
 #include "PlotCartesianWidget.h"
@@ -163,7 +166,7 @@ MainWindow::MainWindow()
 
     QMenu* helpMenu = menuBar()->addMenu(tr("&Help"));
     QAction* helpAbout = helpMenu->addAction( "About..." );
-    connect( helpAbout, SIGNAL(triggered()), this, SLOT(about()) );
+    //connect( helpAbout, SIGNAL(triggered()), this, SLOT(about()) );
 
     // make sure everything has the correct incident direction param values at the start
     paramWnd->emitIncidentDirectionChanged();

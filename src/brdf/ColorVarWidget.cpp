@@ -44,6 +44,10 @@ infringement.
 */
 
 #include <QtGui>
+#include <QColorDialog>
+#include <QHBoxLayout>
+#include <QApplication>
+#include <QLabel>
 #include "ColorVarWidget.h"
 
 QColorDialog* ColorVarWidget::_colorDialog = 0;

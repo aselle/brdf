@@ -45,6 +45,7 @@ infringement.
 
 #include <QtGui>
 #include <QCheckBox>
+#include <QVBoxLayout>
 #include "LitSphereWindow.h"
 #include "LitSphereWidget.h"
 #include "ParameterWindow.h"

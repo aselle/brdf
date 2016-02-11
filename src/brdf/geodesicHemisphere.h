@@ -44,7 +44,7 @@ infringement.
 */
 
 #ifndef _GEODESIC_HEMI_H_
-#define _GEODESIC_HEMI_H
+#define _GEODESIC_HEMI_H_
 
 /*
 

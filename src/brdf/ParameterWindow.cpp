@@ -45,6 +45,11 @@ infringement.
 
 #include <stdio.h>
 #include <QtGui>
+#include <QGridLayout>
+#include <QScrollArea>
+#include <QFileDialog>
+#include <QComboBox>
+#include <QCheckBox>
 #include <vector>
 #include "ParameterWindow.h"
 #include "FloatVarWidget.h"

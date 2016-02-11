@@ -44,6 +44,12 @@ infringement.
 */
 
 #include <QtGui>
+#include <QVBoxLayout>
+#include <QCheckBox>
+#include <QString>
+#include <QFileDialog>
+#include <QMenu>
+#include <QAction>
 #include <stdio.h>
 #include <string.h>
 #include "ParameterGroupWidget.h"
@@ -466,7 +472,7 @@ void ParameterGroupWidget::saveParamsFileButtonPushed()
     
     // if we got a filename back... save it
     if( fileName.length() )
-        brdf->saveParamsFile( fileName.toAscii().constData() );
+        brdf->saveParamsFile( fileName.toUtf8().constData() );
 }
 
 

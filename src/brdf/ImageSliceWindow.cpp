@@ -45,6 +45,7 @@ infringement.
 
 #include <QtGui>
 #include <QCheckBox>
+#include <QVBoxLayout>
 #include "ImageSliceWindow.h"
 #include "ParameterWindow.h"
 #include "FloatVarWidget.h"

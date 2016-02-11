@@ -44,8 +44,8 @@ infringement.
 */
 
 #include <GL/glew.h>
-#include <QtGui>
 #include <QString>
+#include <QMouseEvent>
 #include <math.h>
 #include "DGLShader.h"
 #include "Plot3DWidget.h"

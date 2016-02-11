@@ -44,7 +44,11 @@ infringement.
 */
 
 #include <QtGui>
+#include <QPushButton>
+#include <QFileDialog>
 #include <QCheckBox>
+#include <QComboBox>
+#include <QVBoxLayout>
 #include "IBLWindow.h"
 #include "IBLWidget.h"
 #include "ParameterWindow.h"
